@@ -6,9 +6,11 @@ University of Helsinki
 
 [Course page](https://haskell.mooc.fi)
 
-[![License: CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommonse.org/licenses/by-sa/4.0/)
+[![License: CC BY-SA 4.0](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](https://creativecommons.org/licenses/by-sa/4.0/)
 
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+_New!_ Exercise repository updated to use GHC 9.2.8! You'll need to rerun `stack build`.
 
 ## About the course
 
@@ -49,15 +51,6 @@ Here are some fixes for common problems with `stack build`:
 
 - If you get an error like `While building package zlib-0.6.2.3`, you need to install the zlib library headers. The right command for Ubuntu is `sudo apt install zlib1g-dev`.
 - If you get an error like `Downloading lts-18.18 build plan ... RedownloadInvalidResponse`, your version of stack is too old. Run `stack upgrade` to get a newer one.
-
-## Apple Silicon Mac support
-
-The Apple Silicon processor used on newer Mac computers requires a
-newer version of the Haskell compiler GHC than is used on this course.
-You can try the _experimental_
-[ghc-9 branch of this repository](https://github.com/moocfi/haskell-mooc/tree/ghc-9)
-
-Please report any problems you have with it!
 
 ## Reporting errors
 
